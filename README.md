@@ -11,7 +11,7 @@ A home lab simulating an enterprise Windows Server 2022 environment with Active 
 | Component | Details |
 |---|---|
 | Domain Controller | Windows Server 2022 |
-| Client Machine | Windows 10 Pro |
+| Client Machine | Windows 11 Pro |
 | Hypervisor | Proxmox VE |
 | Domain | webdomain.local |
 | Lab Network | Isolated internal bridge (vmbr1) |
@@ -40,7 +40,7 @@ Proxmox Host
 - Configured DHCP scope serving the 192.168.10.x range with DNS option pointing to the DC
 - Designed an OU structure reflecting a small enterprise with IT and HR departments
 - Created user accounts and security groups scoped to their respective OUs
-- Joined a Windows 10 Pro client to the domain
+- Joined a Windows 11 Pro client to the domain
 - Implemented and verified three Group Policy Objects targeting different OUs
 
 ---
